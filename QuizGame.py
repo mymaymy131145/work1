@@ -10,36 +10,36 @@ print("Let's Start the Game :) ",name_player)
 
 score = 0
 
-answer = input(' What is CPU stands for? \n ')
-if answer.lower() == 'central processing unit':
+answer = input('How many eyes does a cat have ? \n ')
+if answer.lower() == 'two':
     print("Correct")
     score += 1
 else:
     print('Wrong')
  
-answer = input(' What is GPU stands for? \n ')
-if answer.lower() == 'graphical processing unit':
+answer = input('How many legs does a dog have? \n ')
+if answer.lower() == 'four':
     print("Correct")
     score += 1
 else:
     print('Wrong')
 
-answer = input(' What is RAM stands for? \n ')
-if answer.lower() == 'random access memory':
+answer = input('The elephant is fat or skinny?\n ')
+if answer.lower() == 'fat':
     print("Correct")
     score += 1
 else:
     print('Wrong')
 
-answer = input(' What is ROM stands for? \n ')
-if answer.lower() == 'read only memory':
+answer = input('How many days in a month? \n ')
+if answer.lower() == (28,29,30,31):
     print("Correct")
     score += 1
 else:
     print('Wrong')
 
-answer = input(' Mouse is an input device or output device? \n ')
-if answer.lower() == 'input device':
+answer = input('How many days are there in a week? \n ')
+if answer.lower() == 'seven':
     print("Correct")
     score += 1
 else:

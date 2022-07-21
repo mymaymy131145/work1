@@ -31,7 +31,7 @@ if answer.lower() == 'fat':
 else:
     print('Wrong')
 
-answer = input('How many days in a month? \n ')
+answer = input('How many legs does a chicken have? \n ')
 if answer.lower() == (28,29,30,31):
     print("Correct")
     score += 1
